@@ -1,0 +1,22 @@
+Steps to Compile and Run the Project:
+
+
+Go to FruitBasket folder 
+run the command 'mvn clean compile assembly:single'
+Executable Jar file will be generated inside target folder.
+Go to Target folder
+Run the Application using 'java -jar FruitBasket-Tool-jar-with-dependencies.jar' command.
+
+
+Follow the below steps as displayed in Command Line Interface.
+a) You will be asked to enter the CSV file path which is in FruitBasket folder.
+b) once the file is validated, then the data is read from the file
+c) Tool will display different options to run the reports.
+
+
+
+Test tool : Follow the below steps to execute test cases.
+
+Copy the file.csv provided in the FruitBasket folder to target folder after Jar file is generated.
+ Run the command 'java -jar FruitBasket-Tool-jar-with-dependencies.jar test' from target folder.
+ This will run the test cases and display the results in the command line interface.
